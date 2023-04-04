@@ -287,6 +287,10 @@ config SOC_EXYNOS9810
 	select PINCTRL
 	select SAMSUNG_DMADEV
 
+config SOC_EXYNOS9810_EVT1
+	bool "Samsung EXYNOS9810_EVT1"
+	depends on SOC_EXYNOS9810
+
 config SOC_EMULATOR9820
 	bool "Samsung EMULATOR9820"
 	select SOC_SAMSUNG
